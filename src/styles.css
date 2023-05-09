@@ -1,0 +1,38 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+  width: 100vw;
+}
+
+.App .box {
+  width: 15rem;
+  height: 15rem;
+  padding: 1rem;
+  border: 2px solid #2e2e2e;
+  border-radius: 0.25rem;
+}
+
+.App button {
+  cursor: pointer;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: aquamarine;
+  border-radius: 0.25rem;
+}
+
+.App h2 {
+  margin-top: 1rem;
+}
